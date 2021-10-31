@@ -1,25 +1,14 @@
-//import java.util.Random;
-
 public class Card {
 
-  //Fields
+ //Fields
   
-//  private static Random random = new Random();
-  
-  
-  //Card Value (2 - 14) 
+ //Card Value (2 - 14) 
   private int value;
   
-  //Card Name (Hearts, Diamond, Spades, Clubs
+ //Card Name (Hearts, Diamond, Spades, Clubs
   private int name;
 
-  
-  //Enumeration of the different suits in a deck of cards
-  //Heart, Diamond, Spade, Club
-//  enum suitOfCard{
-//    HEARTS, DIAMONDS, SPADES, CLUBS
-//  }
-//  
+ 
   
   //Constructor
   public Card () {
@@ -37,13 +26,6 @@ public class Card {
   
   //Methods
   
-  //set the value of the card when a card is randomly drawn from the deck
-  //does not need it public as this will be done internally
-//  private int setValue() {
-//    this.value = random.nextInt(13) + 2;
-//    return value;
-//  }
-  
   public int getValue() {
     return value;
   }
@@ -53,20 +35,8 @@ public class Card {
     return name;
   }
 
-//  public void setCardValue(int valueOfCard, int suitOfCard) {
-//    this.value = valueOfCard;
-//    this.name = suitOfCard;
-//  }
-  
-  //set the suit of the card when a card is randomly drawn from the deck
-  //does not need to be public as this will be done internally
-//  private int setName() {
-//    this.name = random.nextInt(3) + 1;
-//    return name;
-//  }
- 
-  
-  //describes the card value and suit of card
+
+  //Describes the card value and suit of card
   public String describe() {
 
     String cardDescription = setStringValue(this.value) + " of " + setSuitValue(this.name);
