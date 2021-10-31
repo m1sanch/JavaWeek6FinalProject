@@ -17,8 +17,8 @@ public class App {
     Player player2 = new Player();
     
     //Inputting player's names
-    player1.setPlayerName("Michael Sanchez");
-    player2.setPlayerName("Kimberly Sanchez");
+    player1.setPlayerName("Rose Dewitt Bukater");
+    player2.setPlayerName("Jack Dawson");
     
     
     //Opening statement to welcome the players
@@ -42,10 +42,14 @@ public class App {
     
     //Establish each players hand of cards for validations
     
-    System.out.println("Players please introduce yourself to the judge and report the cards in your hand.  You will also report your current score.");
+    System.out.println("Players please introduce yourself to the judge and report the cards in your hand.  You will also report your current score.\r\n");
     
+    System.out.println("Player 1:");
     player1.describe();
+    System.out.println();
+    System.out.println("Player 2:");
     player2.describe();
+    System.out.println();
     
     System.out.println("-----------------------------------------------------------------------");
     

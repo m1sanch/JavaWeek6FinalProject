@@ -53,7 +53,7 @@ public class Player {
   //Calls the describe method for each card in the Hand List
   public void describe() {   
     System.out.println(String.format("Hello my name is %s . My current score is %d.", getPlayerName(), getScore()));
-    System.out.println("I currently have the following cards in my hand:");
+    System.out.println("I currently have the following cards in my hand:\r\n");
     
     //prints the information for each card in the players hand
     //need an enhanced for loop to get all of the cards in hand
